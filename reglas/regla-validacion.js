@@ -40,6 +40,12 @@ const estaValidado = [
         "regla": "Sin abreviaturas: No permite abreviaturas como Av. (debe ser Avenida).",
         "fn": direccion => {
             return !abreviaturas.some((a) => direccion.includes(a));
+        },
+    },
+    {
+        "regla": "Mayúsculas: La primera letra de cada palabra debe ser mayúscula.",
+        "fn": direccion => {
+            return direccion.trim().split(" ").every(c => c[0] && c[0] == c[0].toUpperCase() || c[0] != c[0].toLowerCase());
         }
     }
 ]
