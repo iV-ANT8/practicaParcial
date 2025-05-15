@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nombre": "Pedro",
+        "email": "pedro@mail.com",
+        "domicilio": "Av. La Plata, 655"
+    },
+    {
+        "id": 2,
+        "nombre": "Marta",
+        "email": "marta@mail.com",
+        "domicilio": "Calle Sarmiento 655, 43662"        
+    },
+    {
+        "id": 3,
+        "nombre": "Alex",
+        "email": "alex@mail.com",
+        "domicilio": "Bulevar Edificio #203, piso 2"
+    }
+]
